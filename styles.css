@@ -149,7 +149,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 }
 
 /* .hero__section_logo  styling for smaller devices*/
-@media (min-width: 250px) and (max-width:330px) {
+@media (max-width:330px) {
   .hero__section_logo h1{
     display: none;
   }
@@ -168,7 +168,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 }
 
 /* .hero__section_title  styling for smaller devices*/
-@media (min-width: 250px) and (max-width:330px) {
+@media (max-width:330px) {
   .hero__section_title_description h3{
     display: none;
   }
@@ -232,3 +232,14 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   } /*1rem = 16px*/
 }
 
+
+.hero__section_logo{
+margin: 2vh;
+}
+
+.hero__section_input_container{
+margin: 1vh 0;
+}
+.hero__section_title_description{
+margin: 1vh 0;
+}
