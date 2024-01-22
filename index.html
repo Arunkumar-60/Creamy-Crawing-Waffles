@@ -31,9 +31,13 @@
   <body data-bs-theme="dark">
     <!-- code starts -->
     <!-- navbar -->
+    
     <nav class="navbar navbar-expand-md bg-body-tertiary">
+      
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">CCW</a>
+        <div class="collapse navbar-collapse d-xxl-flex d-xl-flex d-md-flex d-lg-flex justify-content-between">
+          <a href="index.html" ><img src="images/default.webp" class="brand-logo" style="height: 4vh;" alt="this is the logo of Creamy craving waffle"></a>
+          <a class="navbar-brand" href="index.html">CCW</a></div>
         <button
           class="navbar-toggler"
           type="button"
@@ -50,8 +54,20 @@
           id="navbarNav"
         >
           <ul class="navbar-nav">
+            <li class="nav-item toggle__switch">
+              <div class="form-check form-switch mx-4">
+                <input
+                  class="form-check-input p-2"
+                  type="checkbox"
+                  role="switch"
+                  id="flexSwitchCheckChecked"
+                  checked
+                  onclick="myFunction()"
+                />
+              </div>
+            </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pages/blog.html">Blog</a>
@@ -162,7 +178,9 @@
 
 <!-- cards system for undertaking offers -->
 
-<div class="container_weoffer">
+
+
+<div class="container-fluid container_weoffer">
   <p class="h4 d-flex justify-content-center">We Offer</p>
 
 <div class="container-fluid we__offer d-flex justify-content-evenly">
@@ -195,7 +213,7 @@
 
 <!-- cards system for menu catogeries -->
 
-<section class="container-fluid collections">
+<!-- <section class="container-fluid collections">
   <h2>Menu</h2>
   <div class="sub__heading_container">
     <span>description for manu catogeries</span>
@@ -203,24 +221,27 @@
   </div>
   <div class="collections_card_container">
 
-    <div class="card border border-secondary card1" style="width: 18rem;">
-      <div class="overlay">
-        <div class="content">
-          <h4>category name</h4>
+    <a href="pages/menu/long_waffle.html">
+      <div class="card container-fluid border border-secondary card1" style="width: 18rem;">
+        <div class="overlay">
+          <div class="content">
+            <h4>category name</h4>
+          </div>
         </div>
+        
       </div>
-      
-    </div>
+    </a>
 
-    <div class="card card2 border border-secondary" style=" width: 18rem;">
-      <div class="overlay">
-        <div class="content">
-          <h4>category name</h4>
-          <span class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+    <a href="pages/menu/other.html">
+      <div class="card card2 border border-secondary" style=" width: 18rem;">
+        <div class="overlay">
+          <div class="content">
+            <h4>category name</h4>
+            <span class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+          </div>
         </div>
       </div>
-      
-    </div>
+    </a>
 
     <div class="card card3 border border-secondary">
       <div class="overlay">
@@ -241,7 +262,132 @@
     </div>
     
   </div>
-</section>
+
+</section> -->
+
+<div class="container-fluid container_weoffer">
+  <p class="h4 d-flex justify-content-center">We Offer</p>
+  <div class="sub__heading_container">
+    <span>description for manu catogeries</span>
+    <span>Choose location <i class="fa-solid fa-location-dot" style="color: #ff5a3d;"></i></span>
+  </div>
+<div class="container-fluid we__offer d-flex justify-content-evenly">
+
+  <div class="card" style="width: 18rem;">
+    <img src="images/default.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">popsicle large waffles</h5>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="images/default.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">popsicle medium waffles</h5>
+      
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="images/default.webp" class="card-img-top" alt="...">
+    <div class="card-body " >
+      <h5 class="card-title">other</h5>
+    </div>
+  </div>
+
+</div>
+  
+</div>
+<!-- Back to top button -->
+<button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+
+
+<div class="container_fluid">
+  
+</div>
+
+<!-- footer  -->
+
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+   
+    <div>
+      <a href="#" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="#" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="#" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  
+  </section>
+ 
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+   
+      <div class="row mt-3">
+      
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- description -->
+          <h5 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-solid fa-utensils " style="margin: 1rem;"></i>Creamy craving waffle
+          </h5>
+         <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi esse iusto aliquid minus eos in excepturi, ducimus voluptatum nobis.</h6>
+        </div>
+       
+
+        
+      
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- links -->
+          <h5  class="text-uppercase fw-bold mb-4">Contact</h5>
+          <h6><i class="fas fa-home me-3"></i>???---???---??-111111</h6>
+          <h6>
+            <i class="fas fa-envelope me-3"></i>
+            xyz@gmail.com
+          </h6>
+          <h6><i class="fas fa-phone me-3"></i> + 91 123 456789</h6>
+          <h6><i class="fas fa-print me-3"></i> + 91 234 567 89</h6>
+        </div>
+       
+      </div>
+     
+    </div>
+  </section>
+  
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    Copyrights © 2024
+    <a style="text-decoration: none;" class="text-reset fw-bold" href="#">creamycravingwaffle.com</a><br> - all rights preserved
+  </div>
+</footer>
+
+
+
+<script src="index.js" async></script>
 
 <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -255,3 +401,5 @@
     ></script>
   </body>
 </html>
+
+

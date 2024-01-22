@@ -1,0 +1,14 @@
+{
+  "name": "ccw",
+  "version": "1.0.0",
+  "description": "this is the website for creamy craving waffle , ccw , using html, css, bootstrap, javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arun kumar Pikkala",
+  "license": "MIT License Copyright (c) 2024 Arunkumar",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}

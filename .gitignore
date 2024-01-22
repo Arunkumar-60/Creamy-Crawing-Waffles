@@ -3,3 +3,6 @@ fav.html
 .DS_Store
 .pages/fav.html
 .pages/menu/fav.html
+node_modules
+package-lock.json
+images/themes.png
