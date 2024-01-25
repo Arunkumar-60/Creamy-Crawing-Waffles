@@ -21,9 +21,20 @@
     <nav class="navbar navbar-expand-md bg-body-tertiary">
       
       <div class="container-fluid">
-        <div class="collapse navbar-collapse d-xxl-flex d-xl-flex d-md-flex d-lg-flex justify-content-between">
-          <a href="index.html" ><img src="../images/default.webp" class="brand-logo" style="height: 4vh;" alt="this is the logo of Creamy craving waffle"></a>
-          <a class="navbar-brand" href="../index.html">CCW</a></div>
+
+        <a class="navbar-brand" href="#">CCW</a>
+        <li class="nav-item toggle__switch">
+          <div class="form-check form-switch mx-4">
+            <input
+              class="form-check-input p-2"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckChecked"
+              checked
+              onclick="myFunction()"
+            />
+          </div>
+        </li>
         <button
           class="navbar-toggler"
           type="button"
@@ -40,18 +51,7 @@
           id="navbarNav"
         >
           <ul class="navbar-nav">
-            <li class="nav-item toggle__switch">
-              <div class="form-check form-switch mx-4">
-                <input
-                  class="form-check-input p-2"
-                  type="checkbox"
-                  role="switch"
-                  id="flexSwitchCheckChecked"
-                  checked
-                  onclick="myFunction()"
-                />
-              </div>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
             </li>
