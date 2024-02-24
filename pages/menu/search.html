@@ -33,7 +33,8 @@
     <!-- code starts -->
     <!-- navbar -->
     <nav class="navbar navbar-expand-md bg-body-tertiary">
-      <a class="navbar-brand" href="#">CCW</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CCW</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -71,45 +72,33 @@
       </div>
     </nav>
 
-<!-- Before work on dell g3  -->
 
-<!-- cards system for menu catogeries -->
-
-<div class="container-fluid container_weoffer">
-  <p class="h4 d-flex justify-content-center">We Offer</p>
-  
-<div class="container-fluid we__offer d-flex justify-content-evenly">
-
-  <a href="pages/menu/long_waffle.html" style="text-decoration: none;">
-    <div class="card" style="width: 18rem;">
-      <img src="public/img/images/we_offer/large.webp" class="card-img-top object-fit-contain" alt="...">
-      <div class="card-body " >
-        <h5 class="card-title">popsicle large waffle</h5>
+<!-- search bar code and functionality -->
+<div class="container-fluid">
+    <div class="container">
+      <!-- search form  -->
+      <div class="search m-4">
+        <form class="d-flex search" role="search">
+          <input
+            class="form-control me-2"
+            name=""
+            type="text"
+            id="find"
+            placeholder="Search"
+            aria-label="Search"
+            onkeyup="search()"
+          />
+        </form>
       </div>
-    </div>
-  </a>
-
-<a href="pages/menu/square_waffle.html" style="text-decoration: none;">
-  <div class="card" style="width: 18rem;">
-    <img src="public/img/images/we_offer/medium.webp" class="card-img-top object-fit-contain" alt="...">
-    <div class="card-body " >
-      <h5 class="card-title">popsicle medium waffle</h5>
+  
+      <div class="product-list container-fluid we__offer ">
+        <!-- here goes the list of divs for search bar  -->
+      </div>
     </div>
   </div>
-</a>
-
-  <a href="pages/menu/other.html" style="text-decoration: none;">
-    <div class="card" style="width: 18rem;">
-      <img src="public/img/images/we_offer/other.webp" class="card-img-top object-fit-contain" alt="...">
-      <div class="card-body " >
-        <h5 class="card-title">other</h5>
-      </div>
-    </div>
-  </a>
-
-</div>
   
-</div>
+  
+  
 
 <!-- footer  starts here-->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
@@ -191,9 +180,24 @@
   <i class="fas fa-arrow-up"></i>
 </button>
 
+<script type="text/javascript">
+    function search() {
+      let filter = document.getElementById("find").value.toUpperCase();
+      let item = document.querySelectorAll(".card");
+      let l = document.getElementsByTagName("h5");
+      for (var i = 0; i <= l.length; i++) {
+        let a = item[i].getElementsByTagName("h5")[0];
+        let value = a.innerHTML || a.innerText || a.textContent;
+        if (value.toUpperCase().indexOf(filter) > -1) {
+          item[i].style.display = "";
+        } else {
+          item[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+
 <script src="../../index.js" async></script>
-
-
 <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
