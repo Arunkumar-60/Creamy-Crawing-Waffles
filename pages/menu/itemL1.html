@@ -75,18 +75,9 @@
 
  <!-- div for viewing the item -->
  
-    <div class="card mx-auto my-2" style="width: 18rem;">
-      <img src="../../public/img/images/waffle/large/item1.webp" class="card-img-top object-fit-contain" alt="...">
-      <div class="card-body " >
-        <h5 class="card-title">waffle 1</h5>
-        <p class="card-text">short description blah blah Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nulla!</p>
-        <br>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">waffle bread - vanilla</li>
-              <li class="list-group-item">choclate coating - white choclate</li>
-              <li class="list-group-item">toping - blue berry </li>
-              <li class="list-group-item">sprinkels - abcdefgh</li>
-            </ul>
+    <div class="card mx-auto my-2 boxesContainer" style="width: 18rem;">
+      
+            
         
       </div>
     </div>
@@ -176,6 +167,38 @@
 <!-- footer ends here  -->
 
 <script src="../../index.js" async></script>
+
+<!-- script to load the cards decription  -->
+<script>var large_items = [
+  {
+      href: "L1",
+      imgSrc: "item1",
+      title: "Dark Heaven Bar (Dark & white)",
+      text: "Dark Heaven Popsicle Waffle is a delectable treat featuring a rich, dark chocolatey flavor infused into a crispy waffle made of chocolate and vanilla."
+  }
+  // Add more item details as needed
+];
+
+// Get the container element
+var container = document.querySelector('.boxesContainer');
+
+// Loop through items array to generate HTML for each item and append it to the container
+large_items.forEach(function(item) {
+  var itemHTML = '<div class="card" style="width: 18rem;">';
+  itemHTML += '<img src="../../public/img/images/waffle/large/' + item.imgSrc + '.webp" class="card-img-top object-fit-contain" alt="...">';
+  itemHTML += '<div class="card-body">';
+  itemHTML += '<h5 class="card-title">' + item.title + '</h5><hr>';
+  itemHTML += '<p class="card-text">' + item.text + '</p>';
+  itemHTML += '</div></div></a>';
+  itemHTML += '<ul class="list-group list-group-flush">';
+  itemHTML += '<li class="list-group-item">waffle base - vanilla</li>'
+  itemHTML += '<li class="list-group-item">choclate coating - white choclate</li>'
+  itemHTML += '<li class="list-group-item">toping - blue berry </li>'
+  itemHTML += ' <li class="list-group-item">sprinkels - White Chocolate chips</li>'
+  itemHTML += '</ul>'
+  
+  container.innerHTML += itemHTML;
+});</script>
 
 <script
 src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
