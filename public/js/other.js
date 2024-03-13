@@ -2,26 +2,21 @@ var large_items = [
     {
         href: "O1",
         imgSrc: "item1",
-        title: "Dark Heaven Bar (Dark & white)",
-        text: "Dark Heaven Popsicle Waffle is a delectable treat featuring a rich, dark chocolatey flavor infused into a crispy waffle made of chocolate and vanilla."
+        title: "French Fries",
     },
     {
         href: "O2",
         imgSrc: "item2",
-        title: "Dark Chocolate Dazzle Bar (Milk & Dark)",
-        text: "Indulge in the rich and decadent blend of milk and dark chocolate with our Dark Chocolate Dazzle Bar. Each bite is a delightful burst of creamy and smooth chocolate goodness."
-    },
+        title: "Chicken Nuggets"},
     {
         href:"O3",
         imgSrc:"item3",
-        title:"Triple Chocolate Bar",
-        text:"Indulge in a heavenly trio of milk, white, and dark chocolate with our Triple Chocolate Bar. Each bite offers a decadent blend of rich flavors in a conveniently bite-sized treat."
+        title:"Cheese balls"
     },
     {
         href:"O4",
         imgSrc:"item4",
-        title:"Kitkat Crunchy Bar",
-        text:"Irresistibly crispy waffle coated in smooth Kitkat chocolate, offering a delightful combination of crunch and sweetness in a convenient bite-sized treat. Perfect for snacking anytime, anywhere"
+        title:"Chicken Fingers"
     },
     // Add more item details as needed
   ];
