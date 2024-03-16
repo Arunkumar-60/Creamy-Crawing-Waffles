@@ -2,6 +2,12 @@
 new ccw website using bootstrap
 
 
+# DATA
+data for the items and card containers for medium waffles, large waffles and fry items can be edited from javascript files
+PATH => public/JS/
+
+
+
 <!-- links: CDN  -->
 
 CSS: 

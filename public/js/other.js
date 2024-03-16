@@ -26,12 +26,11 @@ var large_items = [
   
   // Loop through items array to generate HTML for each item and append it to the container
   large_items.forEach(function(item) {
-    var itemHTML = '<a href="item' + item.href + '.html" style="text-decoration: none;">';
-    itemHTML += '<div class="card" style="width: 18rem;">';
+    var itemHTML = '<div class="card" style="width: 18rem;">';
     itemHTML += '<img src="../../public/img/images/waffle/other/' + item.imgSrc + '.webp" class="card-img-top object-fit-contain" alt="...">';
     itemHTML += '<div class="card-body">';
     itemHTML += '<hr><h5 class="card-title">' + item.title + '</h5>';
-    itemHTML += '</div></div></a>';
+    itemHTML += '</div></div>';
     
     container.innerHTML += itemHTML;
   });
