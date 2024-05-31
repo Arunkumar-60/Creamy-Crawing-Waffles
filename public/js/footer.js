@@ -7,7 +7,7 @@ var footerHTML = `
     <a href="#" class="me-4 text-reset">
       <i class="fab fa-facebook-f"></i>
     </a>
-    <a href="#" class="me-4 text-reset">
+    <a href="https://www.google.com/search?q=creamycravingwaffle&rlz=1C5CHFA_enIN1009IN1009&oq=creamycravingwaffle&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyBggCECMYJzIKCAMQABiABBiiBDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMTg0OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&lqi=ChVjcmVhbXkgY3JhdmluZyB3YWZmbGVIpsfj5ZeygIAIWiMQABABEAIYABgBGAIiFWNyZWFteSBjcmF2aW5nIHdhZmZsZZIBDmNob2NvbGF0ZV9jYWZlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJHZFdKbVdXZDNSUkFCqgFkCgkvbS8wMWR3c3oQASoZIhVjcmVhbXkgY3JhdmluZyB3YWZmbGUoADIfEAEiGw0mZvD0P8EMHZLjqah3hfZFI2f6SquwXIW6tjIZEAIiFWNyZWFteSBjcmF2aW5nIHdhZmZsZboBCAoGd2FmZmxl#rlimm=3404669215892682131" class="me-4 text-reset">
       <i class="fab fa-google"></i>
     </a>
     <a href="https://www.instagram.com/creamycravingwaffle?igsh=MWVwdndyNTZ3dHp3ZA==				" class="me-4 text-reset">
