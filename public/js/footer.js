@@ -10,7 +10,7 @@ var footerHTML = `
     <a href="#" class="me-4 text-reset">
       <i class="fab fa-google"></i>
     </a>
-    <a href="#" class="me-4 text-reset">
+    <a href="https://www.instagram.com/creamycravingwaffle?igsh=MWVwdndyNTZ3dHp3ZA==				" class="me-4 text-reset">
       <i class="fab fa-instagram"></i>
     </a>
     <a href="https://github.com/Arunkumar-60" class="me-4 text-reset">
