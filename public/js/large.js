@@ -63,7 +63,7 @@ var large_items = [
         href:"L11",
         imgSrc:"item11",
         title:"Rose & Kaju Delight Bar",
-        text:"Experience a symphony of flavors with our Roze and Kaju Delight Bar Waffle, featuring the rich taste of cashews and the subtle sweetness of rose essence for a truly indulgent treat."
+        text:"Experience a symphony of flavors with our Rose and Kaju Delight Bar Waffle, featuring the rich taste of cashews and the subtle sweetness of rose essence for a truly indulgent treat."
     },
     {
         href:"L12",
