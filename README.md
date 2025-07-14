@@ -19,14 +19,6 @@ Built with **HTML**, **CSS (Bootstrap 5)**, and **JavaScript**, this site provid
 
 ---
 
-## 📸 Preview
-
-> Add your live link or a GIF/screenshot here:
-
-![CCW Homepage Preview](public/img/images/carousel/c1.webp)
-
----
-
 ## 🛠 Tech Stack
 
 ```plaintext
